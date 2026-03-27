@@ -4,7 +4,7 @@ def get_source_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="eVision!@#1",
+        password="password",
         database="samindu_db",
         port=3306
     )
